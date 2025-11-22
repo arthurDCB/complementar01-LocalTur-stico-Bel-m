@@ -1,0 +1,23 @@
+:root {
+  --text-color-1: #1e5606;
+  --text-color-2: #293e23;
+
+  --background-color: #bef1a7;
+
+  --font-family: "Caveat", sans-serif;
+  --h1: 800 24px/135% var(--font-family);
+  --h2: 800 16px/140% var(--font-family);
+  --h3: 800 14px/140% var(--font-family);
+}
+
+#history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 100rem;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+
+}
