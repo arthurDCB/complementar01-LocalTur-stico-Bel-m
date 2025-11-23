@@ -1,3 +1,4 @@
+
 :root {
   --text-color-1: #1e5606;
   --text-color-2: #293e23;
@@ -10,14 +11,86 @@
   --h3: 800 14px/140% var(--font-family);
 }
 
-#history {
+.history {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 200px;
-  width: 100rem;
+  height: auto;
+  width: auto;
   background-color: var(--background-color);
   font-family: var(--font-family);
+  font-size: larger;
+  margin-bottom: 3rem;
+  border-radius: 16px;
+  padding: 16px;
+
 
 }
+#page {
+  width: 800;
+  box-sizing: border-box;
+  padding: 3rem;
+  background-color:var(--text-color-1);
+  border-radius: 24px;
+  margin: 48px 1% 48px;
+  align-items:normal;
+  text-align: center;
+  
+}
+img {
+  border-radius: 16px;
+}
+
+.locaisparasevizitar {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-size: larger;
+  margin-top: 1rem;
+  padding-top: 3rem;
+  border-radius: 16px;
+  padding-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  padding-top: 2rem;
+
+  grid-template-areas:
+  "estacao veropeso"
+  "santuario parquez"
+  "bosque utinga"
+  "museu teatro";
+}
+
+.estacao { grid-area: estacao; }
+.veropeso { grid-area: veropeso; }
+.santuario { grid-area: santuario; }
+.parquez { grid-area: parquez; }
+.bosque { grid-area: bosque; }
+.utinga { grid-area: utinga; }
+.museu { grid-area: museu; }
+.teatro { grid-area: teatro; }
+
+.figure {
+  border: solid, 5px;
+  border-radius: 16px;
+  padding-top: 2rem;
+  font-size: large;
+  
+}
+img {
+  size: auto;
+}
+
+#locaistitulo {
+  padding-top: 2rem;
+}
+
