@@ -24,9 +24,19 @@
   margin-bottom: 3rem;
   border-radius: 16px;
   padding: 16px;
-
-
 }
+
+.history strong{
+  padding-top: 2rem;
+}
+
+.history img {
+  display: block;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 28px;
+}
+
 #page {
   width: 800;
   box-sizing: border-box;
@@ -38,8 +48,9 @@
   text-align: center;
   
 }
-img {
+.locaisparasevizitar img {
   border-radius: 16px;
+
 }
 
 .locaisparasevizitar {
@@ -85,9 +96,6 @@ img {
   padding-top: 2rem;
   font-size: large;
   
-}
-img {
-  size: auto;
 }
 
 #locaistitulo {

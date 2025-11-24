@@ -1,0 +1,10 @@
+header{
+  display: block;
+  background-color: var(--background-color);
+  margin: 3rem;
+  border-radius: 16px;
+  width: 800;
+  font-family: var(--font-family);
+  font-size: xx-large;
+  padding: 1rem;
+}
