@@ -1,9 +1,10 @@
-header{
+header {
   display: block;
   background-color: var(--background-color);
-  margin: 3rem;
+  margin: 1rem auto 2rem;
   border-radius: 16px;
-  width: 800;
+  width: 100%;
+  max-width: 900px;
   font-family: var(--font-family);
   font-size: xx-large;
   padding: 1rem;

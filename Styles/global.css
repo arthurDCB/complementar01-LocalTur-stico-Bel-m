@@ -11,74 +11,79 @@
   --h3: 800 14px/140% var(--font-family);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+#page {
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  padding: 2rem;
+  background-color: var(--text-color-1);
+  border-radius: 24px;
+  margin: 48px auto;
+  text-align: center;
+}
+
 .history {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: auto;
-  width: auto;
+  width: 100%;
   background-color: var(--background-color);
   font-family: var(--font-family);
   font-size: larger;
   margin-bottom: 3rem;
   border-radius: 16px;
-  padding: 16px;
+  padding: 1.5rem;
 }
 
-.history strong{
-  padding-top: 2rem;
+.history strong {
+  padding-top: 1rem;
 }
 
 .history img {
-  display: block;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin: 1.5rem 0;
   border-radius: 28px;
+  width: 100%;
 }
 
-#page {
-  width: 800;
-  box-sizing: border-box;
-  padding: 3rem;
-  background-color:var(--text-color-1);
-  border-radius: 24px;
-  margin: 48px 1% 48px;
-  align-items:normal;
-  text-align: center;
-  
-}
-.locaisparasevizitar img {
-  border-radius: 16px;
-
-}
 
 .locaisparasevizitar {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: auto;
-  width: auto;
+  width: 100%;
   background-color: var(--background-color);
   font-family: var(--font-family);
-  font-size: larger;
   margin-top: 1rem;
-  padding-top: 3rem;
+  padding: 2rem 1rem;
   border-radius: 16px;
-  padding-bottom: 2rem;
+}
+
+figcaption {
+  padding-top: 1rem;
+}
+
+.locaisparasevizitar img {
+  border-radius: 16px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  gap: 2rem;
   padding-top: 2rem;
 
   grid-template-areas:
-  "estacao veropeso"
-  "santuario parquez"
-  "bosque utinga"
-  "museu teatro";
+    "estacao veropeso"
+    "santuario parquez"
+    "bosque utinga"
+    "museu teatro";
 }
 
 .estacao { grid-area: estacao; }
@@ -91,14 +96,35 @@
 .teatro { grid-area: teatro; }
 
 .figure {
-  border: solid, 5px;
+  border: 5px solid #4fb61b;
   border-radius: 16px;
-  padding-top: 2rem;
+  padding: 1.5rem;
   font-size: large;
-  
 }
 
 #locaistitulo {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
+.divider {
+  width: 100%;
+  margin-top: 2rem;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #4fb61b;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: medium;
+}
+
+.allsections > section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  box-sizing: border-box;
+}
