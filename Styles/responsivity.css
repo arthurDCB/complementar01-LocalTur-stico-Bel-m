@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+  #page {
+    padding: 1.5rem;
+  }
+
+  header {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "estacao"
+      "veropeso"
+      "santuario"
+      "parquez"
+      "bosque"
+      "utinga"
+      "museu"
+      "teatro";
+  }
+
+  .figure {
+    padding: 1rem;
+  }
+}
